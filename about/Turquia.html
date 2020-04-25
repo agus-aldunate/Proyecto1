@@ -8,14 +8,24 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <title> Turquía </title>
         <link rel="stylesheet" href="../css/diseño.css" type="text/css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
+        <div id="header"></div>
         <div class="container">
             <h1>Turquia</h1>
             <h3>El pais de los gatos</h3> 
             <p>The .container class provides a responsive fixed width container.</p>
             <p>Resize the browser window to see that its width (max-width) will change at different breakpoints.</p>
           </div>
+          <div id="footer"></div>
+
+          <script> 
+            $(function(){
+              $("#header").load("../header.html"); //set the path to your header file
+              $("#footer").load("../footer.html");  // set the path to your footer file
+            });
+            </script>
     </body>
     <footer>
     </footer>

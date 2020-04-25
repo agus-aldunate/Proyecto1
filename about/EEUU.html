@@ -8,12 +8,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title> Estados Unidos</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+    <div id="header"></div>
     <div class="container">
         <h1>Estados Unidos</h1>
         <h3>El pais de las oportunidades</h3>
       </div>
+      <div id="footer"></div>
+
+      <script> 
+        $(function(){
+          $("#header").load("../header.html"); //set the path to your header file
+          $("#footer").load("../footer.html");  // set the path to your footer file
+        });
+        </script>
 </body>
 <footer>
 
