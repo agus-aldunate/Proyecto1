@@ -10,14 +10,13 @@ body {
 }
 
 .header {
-  overflow: hidden;
   background-color: rgb(33, 98, 109);
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
