@@ -15,6 +15,7 @@ body {
 }
 
 
+
 .header a {
   float: left;
   color: black;
@@ -136,4 +137,12 @@ h1{
 
 #p01{
   font-size: 120% 
+  
+}
+
+.borde{
+  border: 5px solid  black;
+  border-width: 10px;
+
+
 }
