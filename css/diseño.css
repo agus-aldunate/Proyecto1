@@ -52,18 +52,7 @@ body {
   }
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(33, 98, 109);
-  color: white;
-  text-align: center;
-  font-size:110%
-}
-
-td{ 
+td{
   width: 150px; 
   text-align: center; 
   border: 1px solid black; 
@@ -128,4 +117,12 @@ body.españa{
   100%{
     background-image: url("../imagenes/tokyo.jpg");
   }
+}
+
+h1{
+  font-weight: bold;
+}
+
+#p01{
+  font-size: 120% 
 }
