@@ -79,7 +79,6 @@ body.china{
 }
 body.eeuu{
   background-image: url("../imagenes/central.jpg");
-  background-repeat:no-repeat;
 }
 body.italia{
   background-image: url("../imagenes/torre.jpg");
@@ -91,3 +90,31 @@ body.españa{
   background-image: url("../imagenes/plazaMayor.jpg");
 }
 
+#SLIDE_BG{
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slidebg 15s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slidebg{
+  0%{
+    background-image: url("../imagenes/eiffel.jpg");
+  }
+
+  25%{
+    background-image: url("../imagenes/murochino.jpg");
+  }
+  50%{
+    background-image: url("../imagenes/plazaMayor.jpg");
+  }
+  75%{
+    background-image: url("../imagenes/torre.jpg");
+  }
+  100%{
+    background-image: url("../imagenes/tokyo.jpg");
+  }
+}
