@@ -54,7 +54,7 @@ body {
   }
 }
 
-th,td{ 
+td{ 
   width: 150px; 
   text-align: center; 
   border: 1px solid black; 
@@ -63,9 +63,20 @@ th,td{
   background-color: whitesmoke;
   }
   
-#tr01{
-  background-color: aqua;
-  font-weight: bold;
+th{
+  width: 150px; 
+  text-align: center; 
+  border: 1px solid black; 
+  padding: 5px;
+  color: darkslategray;
+  background-color: darkcyan;
 }
-    
+table.center {
+  margin-left:20%; 
+  margin-right:auto;
+}
+
+body.china{
+  background-image: url("../imagenes/murochino.jpg");
+}
 
