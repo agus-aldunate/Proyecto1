@@ -58,6 +58,12 @@ th,td{
   border: 1px solid black; 
   padding: 5px;
   color: darkslategray;
+  background-color: whitesmoke;
   }
+  
+#tr01{
+  background-color: aqua;
+  font-weight: bold;
+}
     
 
