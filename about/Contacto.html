@@ -5,17 +5,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/diseño.css" type="text/css">
-    <title> España </title>
+    <title> Contacto </title>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
-<body class="españa">
+<body>
     <div id="header"></div>
     <div class="container">
-      <br>
-        <h1>España</h1>
-        <h3>El pais de la alegría</h3>
-      </div>
-      <div id="footer"></div>
+
+        <br>
+          <h1>Contacto</h1>
+          <h3>Comunicate con nosotros!</h3>
+          <form action= "datos.html">
+            <label>Nombre</label><br>
+            <input type = "text" id = "idnombre" name= "nombre" value="Ingrese su Nombre"><br>
+            <label>Apellido</label><br>
+            <input type = "text" id = "idapellio" name= "apellido" value="Ingrese su Apellido"><br>
+            <label>Email</label><br>
+            <input type = "text" id = "idapellio" name= "apellido" value="Ingrese su Email"><br>
+            <input type = "submit" value="Enviar"><br>
+        </form>
+        </div>
+
+    <div id="footer"></div>
 
       <script> 
         $(function(){
@@ -23,11 +34,11 @@
           $("#footer").load("../footer.html");  // set the path to your footer file
         });
         </script>
- 
-</body>
 
+
+
+</body>
 <footer>
 
 </footer>
-
 </html>
