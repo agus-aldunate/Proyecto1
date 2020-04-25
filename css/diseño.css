@@ -81,7 +81,7 @@ th{
   background-color: rgba(187, 191, 188, 0.8);
 }
 table.center {
-  margin-left:20%; 
+  margin-left:auto; 
   margin-right:auto;
 }
 
