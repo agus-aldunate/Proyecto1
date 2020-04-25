@@ -77,4 +77,16 @@ table.center {
 body.china{
   background-image: url("../imagenes/murochino.jpg");
 }
+body.eeuu{
+  background-image: url("../imagenes/central.jpg");
+}
+body.italia{
+  background-image: url("../imagenes/torre.jpg");
+}
+body.francia{
+  background-image: url("../imagenes/eiffel.jpg");
+}
+body.españa{
+  background-image: url("../imagenes/plazaMayor.jpg");
+}
 
