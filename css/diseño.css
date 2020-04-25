@@ -129,3 +129,11 @@ body.españa{
     background-image: url("../imagenes/tokyo.jpg");
   }
 }
+
+h1{
+  font-weight: bold;
+}
+
+#p01{
+  font-size: 120% 
+}
