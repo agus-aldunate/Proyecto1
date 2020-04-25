@@ -79,6 +79,7 @@ body.china{
 }
 body.eeuu{
   background-image: url("../imagenes/central.jpg");
+  background-repeat:no-repeat;
 }
 body.italia{
   background-image: url("../imagenes/torre.jpg");
