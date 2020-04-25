@@ -11,10 +11,19 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+    <div id="header"></div>
     <div class="container">
         <h1>España</h1>
         <h3>El pais del jamon</h3>
       </div>
+      <div id="footer"></div>
+
+      <script> 
+        $(function(){
+          $("#header").load("header.html"); //set the path to your header file
+          $("#footer").load("footer.html");  // set the path to your footer file
+        });
+        </script>
  
 </body>
 
