@@ -80,6 +80,7 @@ th{
   padding: 5px;
   color: black;
   background-color: rgba(187, 191, 188, 0.8);
+ 
 }
 table.center {
   margin-left:auto; 
@@ -145,3 +146,4 @@ h1{
   border: 5px solid  black;
   border-width: 10px;
 }
+
