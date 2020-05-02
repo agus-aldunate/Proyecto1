@@ -11,6 +11,7 @@
 <body onload="hfindex()"> 
 
 <div id="header"></div>
+<div class="container">
         <?php
         // define variables and set to empty values
         $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -71,18 +72,18 @@
         <h2>Ingrese sus datos:</h2>
         <p><span class="error">* infromacion obligatoria</span></p>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-        Name: <input type="text" name="name">
+        <div class="label">Name: </div><input type="text" name="name">
         <span class="error">* <?php echo $nameErr;?></span>
         <br><br>
-        E-mail: <input type="text" name="email">
+        <div class="label">E-mail: </div><input type="text" name="email">
         <span class="error">* <?php echo $emailErr;?></span>
         <br><br>
-        Website: <input type="text" name="website">
+        <div class="label">Website: </div><input type="text" name="website">
         <span class="error"><?php echo $websiteErr;?></span>
         <br><br>
-        Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+        <div class="label">Comment:</div> <textarea name="comment" rows="5" cols="40"></textarea>
         <br><br>
-        Gender:
+        <div class="label">Gender:</div>
         <input type="radio" name="gender" value="female">Female
         <input type="radio" name="gender" value="male">Male
         <input type="radio" name="gender" value="other">Other
@@ -103,6 +104,7 @@
         echo "<br>";
         echo $gender;
         ?>
+</div>
 <div id="footer"></div>
 </body>
 </html>

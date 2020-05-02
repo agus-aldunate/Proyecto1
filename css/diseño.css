@@ -16,7 +16,7 @@ body {
 
 .error {color: #ffffff;}
 
-
+.label {width: 200px;}
 
 .header a {
   float: left;
@@ -65,7 +65,6 @@ td{
   }
 
   .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
