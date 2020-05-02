@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/diseño.css">
 </head>
-<body> 
+<body onload="hfindex()"> 
 
 <div id="header"></div>
         <?php
@@ -68,8 +68,8 @@
         }
         ?>
 
-        <h2>PHP Form Validation Example</h2>
-        <p><span class="error">* required field</span></p>
+        <h2>Ingrese sus datos:</h2>
+        <p><span class="error">* infromacion obligatoria</span></p>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
         Name: <input type="text" name="name">
         <span class="error">* <?php echo $nameErr;?></span>
@@ -88,7 +88,7 @@
         <input type="radio" name="gender" value="other">Other
         <span class="error">* <?php echo $genderErr;?></span>
         <br><br>
-        <input type="submit" name="submit" value="Submit">  
+        <input type="submit" name="submit" value="Enviar">  
         </form>
 
         <?php
