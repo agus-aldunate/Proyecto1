@@ -20,7 +20,7 @@
     <button input style="color:white; background-color: #042f66" type="button" type="button" class="btn btn-lg " data-toggle="modal" data-target="#myModal">
       Contacto
     </button>
-
+    
     <!-- The Modal -->
     <div class="modal" id="myModal">
       <div class="modal-dialog">
@@ -28,7 +28,7 @@
         
           <!-- Modal Header -->
           <div class="modal-header">
-            <h1 class="modal-title">Modal Heading</h1>
+            <h2 class="modal-title">Contactese con nosotros</h2>
             <button type="button" class="close" data-dismiss="modal">×</button>
           </div>
 
@@ -91,9 +91,9 @@
             }
             ?>
 
-            <h2>PHP Form Validation Example</h2>
-            <p><span class="error">* required field</span></p>
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+            <h3>Ingrese sus datos</h3>
+            <p><span class="error">* infromacion obligatoria</span></p>
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>  
               Name: <input type="text" name="name">
               <span class="error">* <?php echo $nameErr;?></span>
               <br><br>
@@ -111,26 +111,15 @@
               <input type="radio" name="gender" value="other">Other
               <span class="error">* <?php echo $genderErr;?></span>
               <br><br>
-              <input type="submit" name="submit" value="Submit">  
+              <input type="submit" name="submit" value="Listo">  
             </form>
 
-            <?php
-            echo "<h2>Your Input:</h2>";
-            echo $name;
-            echo "<br>";
-            echo $email;
-            echo "<br>";
-            echo $website;
-            echo "<br>";
-            echo $comment;
-            echo "<br>";
-            echo $gender;
-            ?>
+          
           </div>
           
           <!-- Modal footer -->
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
           </div>
 
         </div>
