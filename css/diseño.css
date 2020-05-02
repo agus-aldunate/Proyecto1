@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: rgb(33, 98, 109);
+  background-image: linear-gradient(to left, lightblue, #2196f3 );
   padding: 20px 10px;
 }
 
@@ -68,7 +68,7 @@ td{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(33, 98, 109);
+    background-image: linear-gradient(to left, lightblue, #2196f3 );
     color: white;
     text-align: center;
     font-size:110%
