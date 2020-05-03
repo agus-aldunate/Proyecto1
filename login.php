@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/diseño.css">
 </head>
-<body onload="hfindex()"> 
+<body class = "php" onload="hfindex()"> 
 
 <div id="header"></div>
 <div class="container">
