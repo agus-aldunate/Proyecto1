@@ -11,7 +11,7 @@
 <body class = "php" onload="hfindex()"> 
 
 <div id="header"></div>
-<div class="container">
+<div class="container" id="fondoblanco">
         <?php
         // define variables and set to empty values
         $nameErr = $emailErr = $genderErr = $websiteErr = "";

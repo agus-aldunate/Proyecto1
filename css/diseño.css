@@ -13,7 +13,7 @@ body {
   padding: 20px 10px;
 }
 
-.error {color: #ffffff;}
+.error {color: red;}
 
 .label {width: 200px;}
 
@@ -92,6 +92,8 @@ th{
  
 }
 table.center {
+  border: 1px solid black; 
+  margin-top: 5%;
   margin-left:auto; 
   margin-right:auto;
 }
@@ -112,7 +114,7 @@ body.españa{
   background-image: url("../imagenes/plazaMayor.jpg");
 }
 body.php{
-  background-image: url("../imagenes/vistadron.jpg");
+  background-image: url("../imagenes/vistavion.jpg");
 }
 
 #SLIDE_BG{
@@ -166,3 +168,10 @@ h1{
   border-width: 10px;
 }
 
+#fondoblanco{
+  background-color: rgba(256, 256, 256, 0.9);
+}
+
+.fondoblanco{
+  background-color: rgba(256, 256, 256, 0.9);
+}
