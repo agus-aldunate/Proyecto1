@@ -185,7 +185,7 @@ h1{
 }
 
 .fondoblanco{
-  background-color: rgba(256, 256, 256);
+  background-color: rgba(256, 256, 256, 0.7);
 }
 
 #diseñoboton{
