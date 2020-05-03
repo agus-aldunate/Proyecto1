@@ -102,7 +102,7 @@ body.china{
   background-image: url("../imagenes/murochino.jpg");
 }
 body.eeuu{
-  background-image: url("../imagenes/central.jpg");
+  background-image: url("../imagenes/usa.jpg");
 }
 body.italia{
   background-image: url("../imagenes/torre.jpg");
@@ -160,6 +160,7 @@ h1{
   color: black;
   
 }
+
 
 .borde{
   padding : 10px 5px;
