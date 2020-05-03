@@ -93,7 +93,8 @@
         </form>
 
         <?php
-        echo "<h2>Your Input:</h2>";
+        echo "<br>";
+        echo "<h5>Gracias por iniciar secion!</h5>";
         echo $name;
         echo "<br>";
         echo $email;
