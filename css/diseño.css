@@ -1,9 +1,8 @@
-
-    body {
-        background-color:rgb(92, 151, 161)!important;
-    }
-    * {box-sizing: border-box;}
-
+html,
+body {
+ height: 100%;
+ position: relative;
+}
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -66,13 +65,20 @@ td{
 
   .footer {
     position: absolute;
-    left: 0;
     bottom: 0;
     width: 100%;
     background: linear-gradient(to right,rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));
     color: white;
     text-align: center;
     font-size:110%
+  }
+
+ .main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
  }
   
 th{
@@ -103,6 +109,9 @@ body.francia{
 }
 body.españa{
   background-image: url("../imagenes/plazaMayor.jpg");
+}
+body.php{
+  background-image: url("../imagenes/vistavion.jpg");
 }
 
 #SLIDE_BG{
