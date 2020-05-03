@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(to left, lightblue, #2196f3 );
+  background: linear-gradient(to right, rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));
   padding: 20px 10px;
 }
 
@@ -69,7 +69,7 @@ td{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to left, lightblue, #2196f3 );
+    background: linear-gradient(to right,rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));
     color: white;
     text-align: center;
     font-size:110%
