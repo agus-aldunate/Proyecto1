@@ -100,19 +100,20 @@ table.center {
   margin-bottom: 5%;
 }
 
-body.china{
+.china{
   background-image: url("../imagenes/murochino.jpg");
 }
-body.eeuu{
+.eeuu{
   background-image: url("../imagenes/usa.jpg");
+
 }
-body.italia{
+.italia{
   background-image: url("../imagenes/torre.jpg");
 }
-body.francia{
+.francia{
   background-image: url("../imagenes/eiffel.jpg");
 }
-body.españa{
+.españa{
   background-image: url("../imagenes/plazaMayor.jpg");
 }
 body.php{
@@ -123,7 +124,7 @@ body.php{
   width: 100%;
   height: 100vh;
   background-position: center center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   backface-visibility: hidden;
   animation: slidebg 15s linear infinite 0s;
