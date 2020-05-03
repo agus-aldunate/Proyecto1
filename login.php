@@ -72,7 +72,7 @@
         <h2>Ingrese sus datos:</h2>
         <p><span class="error">* infromacion obligatoria</span></p>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-        <div class="label">Name: </div><input type="text" name="name">
+        <div class="label">Nombre: </div><input type="text" name="name">
         <span class="error">* <?php echo $nameErr;?></span>
         <br><br>
         <div class="label">E-mail: </div><input type="text" name="email">
@@ -81,12 +81,12 @@
         <div class="label">Website: </div><input type="text" name="website">
         <span class="error"><?php echo $websiteErr;?></span>
         <br><br>
-        <div class="label">Comment:</div> <textarea name="comment" rows="5" cols="40"></textarea>
+        <div class="label">Comentario:</div> <textarea name="comment" rows="5" cols="40"></textarea>
         <br><br>
-        <div class="label">Gender:</div>
-        <input type="radio" name="gender" value="female">Female
-        <input type="radio" name="gender" value="male">Male
-        <input type="radio" name="gender" value="other">Other
+        <div class="label">Genero:</div>
+        <input type="radio" name="gender" value="Femenino">Femenino
+        <input type="radio" name="gender" value="Masculino">Masculino
+        <input type="radio" name="gender" value="Otro">Otro
         <span class="error">* <?php echo $genderErr;?></span>
         <br><br>
         <input type="submit" name="submit" value="Enviar">  
