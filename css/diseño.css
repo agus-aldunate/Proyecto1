@@ -167,6 +167,10 @@ h1{
   border-width: 10px;
 }
 
-.container{
-  background-color: rgba(187, 191, 188, 0.9);
+#fondoblanco{
+  background-color: rgba(256, 256, 256, 0.9);
+}
+
+.fondoblanco{
+  background-color: rgba(256, 256, 256, 0.9);
 }
