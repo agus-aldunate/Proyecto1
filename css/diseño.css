@@ -65,7 +65,7 @@ td{
 
   .footer {
     padding: 13px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     background: linear-gradient(to right,rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));

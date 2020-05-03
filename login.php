@@ -94,7 +94,7 @@
 
         <?php
         echo "<br>";
-        echo "<h5>Gracias por iniciar secion!</h5>";
+        echo "<h5>Gracias por iniciar sesion!</h5>";
         echo $name;
         echo "<br>";
         echo $email;
