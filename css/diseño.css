@@ -13,7 +13,7 @@ body {
   padding: 20px 10px;
 }
 
-.error {color: #ffffff;}
+.error {color: red;}
 
 .label {width: 200px;}
 
