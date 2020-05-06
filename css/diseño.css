@@ -1,4 +1,6 @@
 html,
+
+
 body {
  height: 100%;
  position: relative;
@@ -8,14 +10,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*php*/
+.error {color: red;}
+
+.label {width: 200px;}
+
+/*header*/
 .header {
   background: linear-gradient(to right, rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));
   padding: 20px 10px;
 }
-
-.error {color: red;}
-
-.label {width: 200px;}
 
 .header a {
   float: left;
@@ -55,6 +59,21 @@ body {
   }
 }
 
+/*footer*/
+
+.footer {
+  padding: 13px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right,rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));
+  color: white;
+  text-align: center;
+  font-size:110%
+}
+
+/*tabla*/
+
 td{
   width: 150px; 
   text-align: center; 
@@ -64,16 +83,7 @@ td{
   background-color: rgba(256, 256, 256, 0.8);
   }
 
-  .footer {
-    padding: 13px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background: linear-gradient(to right,rgb(29, 148, 175), rgb(32, 126, 149), rgb(32, 105, 124), rgb(30, 84, 100), rgb(27, 64, 77));
-    color: white;
-    text-align: center;
-    font-size:110%
-  }
+  
 
  .main-container {
   min-height: 100vh; /* will cover the 100% of viewport */
@@ -100,6 +110,7 @@ table.center {
   margin-bottom: 5%;
 }
 
+/*fondos*/
 .china{
   background-image: url("../imagenes/murochino.jpg");
 }
@@ -149,6 +160,18 @@ body.php{
   }
 }
 
+#fondoblanco{
+  background-color: rgba(256, 256, 256, 0.7);
+  padding-bottom: 1%;
+  margin: auto;
+}
+
+.fondoblanco{
+  background-color: rgba(256, 256, 256, 0.7);
+}
+
+/*textos*/
+
 h1{
   font-weight: bold;
 }
@@ -172,21 +195,8 @@ h1{
 }
 
 
-.borde{
-  padding : 10px 5px;
-  border: 5px solid  black;
-  border-width: 10px;
-}
+/*botones*/
 
-#fondoblanco{
-  background-color: rgba(256, 256, 256, 0.7);
-  padding-bottom: 1%;
-  margin: auto;
-}
-
-.fondoblanco{
-  background-color: rgba(256, 256, 256, 0.7);
-}
 
 #diseñoboton{
   color:white; 
