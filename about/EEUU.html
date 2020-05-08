@@ -8,31 +8,256 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/diseño.css" type="text/css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+    
+    .row {
+      margin: 10px -16px;
+    }
+    
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 20%;
+    }
+    
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Content */
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+    
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: white;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+
+}
+
+    </style>
 </head>
 <body onload="hfabout()">
     <div id="header"></div>
-    <div class="eeuu">
-    <div class="container" id="fondoblanco">
-      <br>
-        <h1>Estados Unidos</h1>
-        <h2>El pais de las oportunidades</h2>
-        <hr>
-        <p id="p01">Los Estados Unidos de América son un referente cultural y político, pero también uno de los principales destinos turísticos del planeta. La inmensidad del continente americano, su <b>diversidad</b> y contrastes se plasman en este país que se extiende costa a costa. Destino para un <b>fin de semana</b> en Nueva York o Las Vegas, o para <b>un mes</b> de travesía que apenas será un retazo del viaje que es la propia geografía norteamericana.
-        <br>País de <b>cultura</b> en Boston, Filadelfia o San Francisco. País de <b>diversión y fiesta</b> en Miami, Nueva Orleans o Los Ángeles. País de <b>inmensidades</b> en las Rocosas, Alaska o Hawai. País de <b>naturaleza</b> en las Bad Lands de Montana, los Apalaches, las Mesas de Nuevo México o el Gran Cañón del Colorado. País de <b>monumentos</b> como la Estatua de la Libertad, el Puente de San Francisco, el Monte Rushmore o el Arco de San Louis.
-        </p>
-        <h3> Lugares mas visitados: </h3>
-        <p id="p01">
-        <b>- El Gran Cañón: </b>son 5.000 kilómetros cuadrados de superficie que albergan profundas gargantas y formaciones naturales espectaculares que hacen de el Gran Cañón del Colorado (Nevada y Utah) un destino imprescindible en Estados Unidos. Se lo considera como un tesoro de arizona.
-        <br> <b>- Times Square: </b>es el centro de Nueva York, y la sensación que uno tiene cuando está ahí es que está en el centro del mundo. Muchas pantallas LED enormes y edificios gigantes.
-        <br> <b>- Ocean Drive: </b>es la calle más famosa de Miami y la que resume el espíritu de la ciudad. Es el lugar dónde se encuentra la mayor cantidad de excentricidades: autos raros, gente intentando demostrar todo el dinero que tiene, ferraris y corvettes, etc.  
-        <br> <b>- Disneyworld: </b> complejo turístico famoso por sus parques temáticos y numerosos hoteles.
-        <br> <b>- Universal Studios: </b> es un parque temático localizado en Orlando, Florida, que forma parte del complejo Universal Orlando Resort. La temática del parque es la industria del entretenimiento, en particular de las películas y la televisión. 
-        <br> <b>- La Estatua de la Libertad: </b>es uno de los monumentos más famosos de Nueva York, de los Estados Unidos y de todo el mundo. Fue un regalo del gobierno francés al gobierno estadounidense en 1886 para conmemorar el centenario de la Declaración de Independencia de los Estados Unidos y como un signo de amistad entre las dos naciones. 
-        <br> <b>- Golden Gate: </b> es un puente colgante situado en Estados Unidos, California, que une la península de San Francisco por el norte con el sur del condado de Marin, cerca de Sausalito. 
-        <br> <b>- Central Park: </b>es un parque urbano público situado en el distrito metropolitano de Manhattan, en la ciudad de Nueva York, Estados Unidos. El parque tiene forma rectangular y dimensiones aproximadas de 4000 x 800 m, siendo más grande que dos de las naciones más pequeñas del mundo; es casi dos veces más grande que Mónaco y casi ocho veces más que la Ciudad del Vaticano.
-        </p>
+
+      <div class="row">
+
+        <div class="column nature">
+            <div class="container">
+              <img src="../imagenes/granC.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/times.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/ocean.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+        
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/disney.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/universal.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/estatua.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/goldengate.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+        
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/centralpark.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/vegas.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="column nature">
+          <div class="container">
+          <img src="../imagenes/monte.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+        </div>
+        </div>
+
+
+      <!-- END GRID -->
       </div>
-      </div>
+      <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+      </script>
+
       <div id="footer"></div>
 </body>
 </html>
