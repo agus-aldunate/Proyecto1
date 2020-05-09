@@ -4,11 +4,9 @@ html,
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-
+  height: 100%;
   box-sizing : border-box;
 }
-
-
 
 /*php*/
 .error {color: red;}
@@ -18,7 +16,8 @@ body {
 /*efecto parallax*/
 .parallax {
   /* The image used */
-  background-image: url("../imagenes/vistavion.jpg");
+  background-image: url("../imagenes/vistadron.jpg");
+  background-color: rgb(256, 256, 256,0.7);
 
   /* Full height */
   height: 100px;
@@ -28,4 +27,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.right{
+  float: left;
+  padding-bottom: 10px;
+}
+
+.left{
+  float: right;
+  padding-bottom: 10px;
+}
+
+#h1{
+  text-align: left;
 }
