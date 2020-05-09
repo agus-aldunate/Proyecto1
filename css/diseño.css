@@ -474,3 +474,21 @@ body {
   font-size: 30px;
 }
 
+.lognotinvisible{
+  display: none;
+}
+
+.usernotvisible{
+  display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
