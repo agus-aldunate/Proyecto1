@@ -83,7 +83,6 @@ body {
   z-index: 1;
 }
 
-<<<<<<< HEAD
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -94,7 +93,6 @@ body {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-=======
 .fakeimg {
   height: 200px;
   background: #aaa;
@@ -127,4 +125,3 @@ body {
 .navbar.fixed-top a {
   color: white;
 }
->>>>>>> 08d635dac8a89c9cc13e1ad0f87c2f1f678a3370
