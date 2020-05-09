@@ -13,11 +13,13 @@
     <body class = "php" onload="hfabout()"> 
 
         <div id="header"></div>
-            <?php //navbar.html
+            <?php session_start();
 
-            $username = $_POST['uname'];
+            $username = $_POST['uname'] ;
+            $password =  $_POST['psw'] ;
 
-            $password = $_POST['psw'];
+            $_SESSION['vuname'] =$username;
+
             ?>
 
 
@@ -27,11 +29,11 @@
                 <p>Tus datos son: </p>
                 <?php
                     echo"<p><b>Nombre de usuario: </b></p>";
-                    echo "$username";
+                    echo  $username;
                     echo "<br>";
                     echo "<br>";
                     echo"<p><b>Contraseña: </b></p>";
-                    echo "$password";
+                    echo $password;
                     ?>
                 </div>
                 <div class="container" style="background-color:#f1f1f1">
