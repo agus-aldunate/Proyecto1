@@ -61,3 +61,17 @@
           }
           element.className = arr1.join(" ");
         }
+<<<<<<< HEAD
+
+
+        // Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+=======
+>>>>>>> 8b3bc65fac562c1ebdbd94368594c369a6bc6a6b
