@@ -26,6 +26,18 @@ body {
 
 
 }
+
+.parallaxpais {
+  
+  background-image: url("../imagenes/parallax.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
 .parallax1 {
   
   background-image: url("../imagenes/parallax1.jpg");
@@ -49,7 +61,7 @@ body {
 .textoparallax2{
   text-align: center;
   font-size: 300%;
-  color: black;
+  color: white;
   padding-top: 100px;
   font-family: 'Oswald', sans-serif;
   background-color: rgb(255, 255, 255, 0.3);
@@ -64,12 +76,13 @@ body {
 }
 
 .subtextoparallax2{
-  text-align: center;
-  font-size: 100%;
+  text-align: left;
+  font-size: 150%;
   color: black;
-  font-family: 'Oswald', sans-serif;
-  padding: 5%;
-  background-color: rgb(255, 255, 255, 0.3);
+  padding: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: whitesmoke;
 }
 
 .icon1{
