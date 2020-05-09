@@ -8,142 +8,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/diseño.css" type="text/css">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: #f1f1f1;
-      font-family: Arial;
-    }
-    
-    /* Center website */
-    .main {
-      max-width: 1000px;
-      margin: auto;
-    }
-    
-    h1 {
-      font-size: 50px;
-      word-break: break-all;
-    }
-    
-    .row {
-      margin: 10px -16px;
-    }
-    
-    /* Add padding BETWEEN each column */
-    .row,
-    .row > .column {
-      padding: 8px;
-    }
-    
-    /* Create three equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 20%;
-    }
-    
-    /* Clear floats after rows */ 
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Content */
-    .content {
-      background-color: white;
-      padding: 10px;
-    }
-    
-    /* The "show" class is added to the filtered elements */
-    .show {
-      display: block;
-    }
-    
-    /* Style the buttons */
-    .btn {
-      border: none;
-      outline: none;
-      padding: 12px 16px;
-      background-color: white;
-      cursor: pointer;
-    }
-    
-    .btn:hover {
-      background-color: #ddd;
-    }
-    
-    .btn.active {
-      background-color: #666;
-      color: white;
-    }
-
-    .container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(0, 0, 0);
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 13px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-
-
-}
-
-h4{
-  text-align: center;
-  color:rgb(255, 255, 255);
-}
-
-#p01{
-  text-align: center;
-  padding-top:5% ;
-  font-size: 400%;
-}
-h5{
-  padding: 5%;
-}
-    </style>
 </head>
 <body onload="hfabout()">
     <div id="header"></div>
     <div id="navbar"></div>
 
     <p id="p01">Estados Unidos</p>
-    <h5>Los Estados Unidos de América son un referente cultural y político, pero también uno de los principales destinos turísticos del planeta. <br> La inmensidad del continente americano, su <b>diversidad</b> y contrastes se plasman en este país que se extiende costa a costa. Destino para un <b>fin de semana</b> en Nueva York o Las Vegas, o para <b>un mes</b> de travesía que apenas será un retazo del viaje que es la propia geografía norteamericana.
+    <h5 id="h501">Los Estados Unidos de América son un referente cultural y político, pero también uno de los principales destinos turísticos del planeta. <br> La inmensidad del continente americano, su <b>diversidad</b> y contrastes se plasman en este país que se extiende costa a costa. Destino para un <b>fin de semana</b> en Nueva York o Las Vegas, o para <b>un mes</b> de travesía que apenas será un retazo del viaje que es la propia geografía norteamericana.
       <br>País de <b>cultura</b> en Boston, Filadelfia o San Francisco. País de <b>diversión y fiesta</b> en Miami, Nueva Orleans o Los Ángeles. País de <b>inmensidades</b> en las Rocosas, Alaska o Hawai. País de <b>naturaleza</b> en las Bad Lands de Montana, los Apalaches, las Mesas de Nuevo México o el Gran Cañón del Colorado. País de <b>monumentos</b> como la Estatua de la Libertad, el Puente de San Francisco, el Monte Rushmore o el Arco de San Louis.</h5>
       <div class="row">
         <div class="column nature">
@@ -151,7 +22,7 @@ h5{
               <img src="../imagenes/granC.jpg" alt="Avatar" class="image">
               <div class="overlay">
                 <br>
-                <h4>El Gran Cañón</h4>
+                <h4 id="h401">El Gran Cañón</h4>
                 <br>
                 <div class="text"><br> <br>Son 5.000 kilómetros cuadrados de superficie que albergan profundas gargantas y formaciones naturales espectaculares que hacen de el Gran Cañón del Colorado (Nevada y Utah) un destino imprescindible en Estados Unidos.</div>
               </div>
@@ -164,7 +35,7 @@ h5{
           <div class="overlay">
             <br> 
             <br>
-            <h4>Times Squeare</h4>
+            <h4 id="h401">Times Squeare</h4>
             <div class="text"><br><br>Es el centro de Nueva York, y la sensación que uno tiene cuando está ahí es que está en el centro del mundo. <br> Muchas pantallas LED enormes y edificios gigantes.</div>
           </div>
         </div>
@@ -175,7 +46,7 @@ h5{
           <img src="../imagenes/ocean.jpg" alt="Avatar" class="image">
           <div class="overlay">
             <br>
-            <h4>Ocean Drive</h4>
+            <h4 id="h401">Ocean Drive</h4>
             <br>
             <div class="text"><br><br>Es la calle más famosa de Miami y la que resume el espíritu de la ciudad. Es el lugar dónde se encuentra la mayor cantidad de excentricidades: autos raros, gente intentando demostrar todo el dinero que tiene, ferraris y corvettes, etc.  </div>
           </div>
@@ -188,7 +59,7 @@ h5{
           <div class="overlay">
             <br>
             <br>
-            <h4>Disneyworld Orlando</h4>
+            <h4 id="h401">Disneyworld Orlando</h4>
             <br>
             <div class="text"><br><br>Complejo turístico famoso por sus numerosos hoteles y parques temáticos llenos de juegos y espectaculos relacionados a los tan conocidos y amados personajes de las peliculas de Disney.</div>
           </div>
@@ -200,7 +71,7 @@ h5{
           <img src="../imagenes/universal.jpg" alt="Avatar" class="image">
           <div class="overlay">
             <br>
-            <h4>Universal Studios</h4>
+            <h4 id="h401">Universal Studios</h4>
             <br>
             <div class="text"><br> <br> Es un parque temático localizado en Orlando, Florida, que forma parte del complejo Universal Orlando Resort. La temática del parque es la industria del entretenimiento, en particular de las películas y la televisión. </div>
           </div>
@@ -211,7 +82,7 @@ h5{
           <div class="container">
           <img src="../imagenes/estatua.jpg" alt="Avatar" class="image">
           <div class="overlay">
-            <h4>La estatua de la libertad</h4>
+            <h4 id="h401">La estatua de la libertad</h4>
             <br>
             <div class="text"><br><br>Es uno de los monumentos más famosos de Nueva York y de todo el mundo. Fue un regalo del gobierno francés al gobierno estadounidense por el centenario de la Declaración de Independencia de los Estados Unidos. </div>
           </div>
@@ -224,7 +95,7 @@ h5{
           <div class="overlay">
             <br>
             <br>
-            <h4>Golden Gate</h4>
+            <h4 id="h401">Golden Gate</h4>
             <br>
             <div class="text"><br><br>Es un puente colgante situado en Estados Unidos, California, que une la península de San Francisco por el norte con el sur del condado de Marin, cerca de Sausalito. </div>
           </div>
@@ -236,7 +107,7 @@ h5{
           <div class="container">
           <img src="../imagenes/centralpark.jpg" alt="Avatar" class="image">
           <div class="overlay">
-            <h4>Central Park</h4>
+            <h4 id="h401">Central Park</h4>
             <br>
             <div class="text"><br><br>Es un parque urbano público que tiene forma rectangular y dimensiones aproximadas de 4000 x 800 m, siendo más grande que dos de las naciones más pequeñas del mundo; es casi dos veces más grande que Mónaco y casi ocho veces más que la Ciudad del Vaticano.</div>
           </div>
@@ -248,7 +119,7 @@ h5{
           <img src="../imagenes/vegas.jpg" alt="Avatar" class="image">
           <div class="overlay">
             <br>
-            <h4>Las Vegas</h4>
+            <h4 id="h401">Las Vegas</h4>
             <br>
             <br>
             <div class="text"><br><br>Es la ciudad más grande del estado de Nevada, en Estados Unidos. Es uno de los principales destinos turísticos del país gracias a sus zonas comerciales y vacacionales, pero sobre todo gracias a sus casinos. ></div>
@@ -261,7 +132,7 @@ h5{
           <img src="../imagenes/monte.jpg" alt="Avatar" class="image">
           <div class="overlay">
             <br>
-            <h4>Monte Rushmore</h4>
+            <h4 id="h401">Monte Rushmore</h4>
             <br>
             <br>
             <div class="text"><br><br>Es un monumental conjunto escultórico tallado en una montaña en el que figuran los rostros de 18 metros de altura de los presidentes estadounidenses George Washington, Thomas Jefferson, Theodore Roosevelt y Abraham Lincoln.</div>
@@ -272,40 +143,6 @@ h5{
 
       <!-- END GRID -->
       </div>
-      <script>
-        filterSelection("all")
-        function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("column");
-          if (c == "all") c = "";
-          for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-          }
-        }
-        
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-          }
-        }
-        
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);     
-            }
-          }
-          element.className = arr1.join(" ");
-        }
-      </script>
-
       <div id="footer"></div>
 </body>
 </html>
