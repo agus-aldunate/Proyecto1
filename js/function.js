@@ -10,6 +10,7 @@
     $("#navbar").load("../navbar.html"); 
   };
 
+
   function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -30,7 +31,8 @@
     }
   }
 
-          filterSelection("all")
+
+        filterSelection("all")
         function filterSelection(c) {
           var x, i;
           x = document.getElementsByClassName("column");

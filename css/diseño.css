@@ -18,10 +18,7 @@ body {
 /*efecto parallax*/
 .parallax {
   background-image: url("../imagenes/vistadron.jpg");
-  background-color: rgb(256, 256, 256,0.7);
-
   height: 100px;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,26 +98,15 @@ body {
   padding: 10px;
 }
 
-.navbar {
-  position: relative;
-  /* default colors + transition */
-  background-color: white;
-  color: black;
-  transition: all 0.3s ease-out;
-}
-
-/* scrolling state */
-.navbar.fixed-top {
+.sticky {
   position: fixed;
   top: 0;
   width: 100%;
-  /* scrolling colors */
-  background-color: black;
-  color: white;
 }
 
-.navbar.fixed-top a {
-  color: white;
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 30px;
 }
 
 /* paginas de paises */
@@ -135,6 +121,17 @@ body {
   word-break: break-all;
 }
 
+hr{
+  border: none;
+  height: 2px;
+  width: 90%;
+}
+
+.vl {
+  border-left: 2px solid gray;
+  height: 30px;
+}
+
 .row {
   margin: 10px -16px;
 }
@@ -142,7 +139,7 @@ body {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* Create three equal columns that floats next to each other */
