@@ -2,12 +2,13 @@
 <head>
   <title> Estados Unidos </title>
   <meta charset="utf-8">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="../js/function.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/diseño.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="../js/function.js"></script>
   <style> .parallax {background-image: url("../imagenes/vistavion.jpg");}</style>
 </head>
 <body onload="hfabout()">
@@ -19,7 +20,7 @@
       <br>País de <b>cultura</b> en Boston, Filadelfia o San Francisco. País de <b>diversión y fiesta</b> en Miami, Nueva Orleans o Los Ángeles. País de <b>inmensidades</b> en las Rocosas, Alaska o Hawai. País de <b>naturaleza</b> en las Bad Lands de Montana, los Apalaches, las Mesas de Nuevo México o el Gran Cañón del Colorado. País de <b>monumentos</b> como la Estatua de la Libertad, el Puente de San Francisco, el Monte Rushmore o el Arco de San Louis.</h5>
     <div class="parallax"></div>
       <div class="row">
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
             <div class="container">
               <img src="../imagenes/granC.jpg" alt="Avatar" class="image">
               <div class="overlay">
@@ -30,7 +31,7 @@
               </div>
             </div>
         </div>
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/times.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -42,7 +43,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/ocean.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -54,7 +55,7 @@
         </div>
         </div>
         
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/disney.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -67,7 +68,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up"> 
           <div class="container">
           <img src="../imagenes/universal.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -79,7 +80,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/estatua.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -90,7 +91,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/goldengate.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -104,7 +105,7 @@
         </div>
         
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/centralpark.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -115,7 +116,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/vegas.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -128,7 +129,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature" data-aos="slide-up">
           <div class="container">
           <img src="../imagenes/monte.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -144,5 +145,31 @@
       
     
       <div id="footer"></div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 10, // values from 0 to 3000, with step 50ms
+  duration: 1500, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
 </body>
 </html>
