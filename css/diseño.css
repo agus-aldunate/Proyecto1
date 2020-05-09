@@ -27,6 +27,7 @@ body {
 
 }
 
+
 .textoparallax{
   text-align: center;
   font-size: 300%;
@@ -44,6 +45,7 @@ body {
   background-color: rgb(255, 255, 255, 0.3);
 }
 
+
 .subtextoparallax{
   text-align: center;
   font-size: 200%;
@@ -54,7 +56,7 @@ body {
 .subtextoparallax2{
   text-align: center;
   font-size: 100%;
-  color: black;
+  color:black;
   font-family: 'Oswald', sans-serif;
   padding: 5%;
   background-color: rgb(255, 255, 255, 0.3);
@@ -75,7 +77,15 @@ body {
 }
 
 .row-full{
-  width: 100vw;
+  width: 99.45vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100%;
+  left: 50%;
+ }
+
+.row-full1{
+  width: 99.75vw;
   position: relative;
   margin-left: -50vw;
   height: 100%;
@@ -170,7 +180,7 @@ body {
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 /* paginas de paises */
@@ -525,7 +535,6 @@ footer a:hover{
   color: #888;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
