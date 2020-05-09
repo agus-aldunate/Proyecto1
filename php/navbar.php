@@ -58,7 +58,7 @@
                 }
                 ?>   
           <li class="nav-item">
-                <div style="float:right;width:auto;margin-left: 880px">
+                <div style="float:right;width:auto;margin-left: 63vw">
                   <div style="float:left" class="<?php echo $uservisible?>">
                     <button onclick="document.getElementById('id02').style.display='block'" class="nav-link"><i class="fa fa-fw fa-user"></i> <?php echo $username?></button> 
                   </div>
