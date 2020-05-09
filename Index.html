@@ -7,14 +7,13 @@
   <link rel="stylesheet" href="css/diseño.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="js/function.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body onload="hfindex(),scroll()">
 
@@ -22,12 +21,14 @@
 <div id="navbar"></div>
 
   <div class="parallax">
-    <p class="textoparallax">Estas pensando en viajar?</p>
-    <p class="subtextoparallax" data-aos="slide-right">En turipinar te ofrecemos los mejores viajes.</p>
+    <p class="textoparallax">¿Estas pensando en viajar?</p>
+    <p class="subtextoparallax" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500">En turipinar te ofrecemos los mejores viajes.<br>Siempre pensando en su economía.</p>
   </div>
   <div class="container" style="margin-top:30px">
     <div class="travel_variation_area">
-        <div class="container" data-aos="slide-up">
+        <div class="container" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
         <div class="row">
         <div class="col-lg-4 col-md-6">
         <div class="single_travel text-center">
@@ -59,8 +60,9 @@
       </div>
       </div>
     </div>
-
-    <div class="popular_destination_area row-full" data-aos="slide-up">
+    <div class="popular_destination_area row-full" data-aos="fade-up"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
     <div class="container" >
     <div class="row justify-content-center">
     <div class="col-lg-6">
@@ -132,14 +134,42 @@
       <br>
       <h4 id="h401">España</h4>
     </div>
+    </div>
+    </div>
+    </div>
+  </div>
+    <div data-aos="fade-up">
+    <div class="slideshow-container row-full">
+
+      <div class="mySlides">
+        <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+        <p class="author">- John Keats</p>
+      </div>
+      
+      <div class="mySlides">
+        <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+        <p class="author">- Ernest Hemingway</p>
+      </div>
+      
+      <div class="mySlides">
+        <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+        <p class="author">- Thomas A. Edison</p>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <div class="dot-container row-full">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
-
-</div>
-</div>
-</div>
-</div>
-
 <div id="footer"></div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -160,8 +190,8 @@
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 500, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
+  duration: 900, // values from 0 to 3000, with step 50ms
+  easing: 'ease-in-sine', // default easing for AOS animations
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation

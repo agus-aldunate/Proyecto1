@@ -23,7 +23,6 @@
   <div id="navbar">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <a class="navbar-brand" href="/Proyecto1/Index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
-      <div class="vl"></div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
