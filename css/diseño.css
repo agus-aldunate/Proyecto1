@@ -28,3 +28,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+  padding: 10px;
+}
+
+.navbar {
+  position: relative;
+  /* default colors + transition */
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+/* scrolling state */
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* scrolling colors */
+  background-color: black;
+  color: white;
+}
+
+.navbar.fixed-top a {
+  color: white;
+}
