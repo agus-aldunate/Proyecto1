@@ -27,6 +27,21 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.right{
+  float: left;
+  padding-bottom: 10px;
+}
+
+.left{
+  float: right;
+  padding-bottom: 10px;
+}
+
+#h1{
+  text-align: left;
 }
 
 .fakeimg {
