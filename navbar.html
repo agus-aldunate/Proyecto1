@@ -38,10 +38,35 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Descuentos</a>
+          <a class="nav-link" href="/Proyecto1/about/Descuentos.html">Descuentos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicar Sesion</a>
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Iniciar Sesion</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/Proyecto1/php/login.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="/Proyecto1/imagenes/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Usuario</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Contraseña</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Iniciar Sesion</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+    </div>
+  </form>
+</div>
+
         </li>    
       </ul>
     </div>  
