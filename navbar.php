@@ -31,7 +31,7 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn "><i class="fa fa-fw fa-plane"></i>Destinos</button>
+              <button onclick="myFunction1()" class="dropbtn "><i class="fa fa-fw fa-plane"></i>Destinos</button>
               
               <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
