@@ -25,7 +25,7 @@
 
             <form class="modal-content animate" action="/Proyecto1/Index.html" method="post">
                 <div class="container">
-                <h2>Gracias por iniciar sesion!!!!</h2>
+                <h4><b>Gracias por iniciar sesion!!!!</b></h4>
                 <p>Tus datos son: </p>
                 <?php
                     echo"<p><b>Nombre de usuario: </b></p>";
