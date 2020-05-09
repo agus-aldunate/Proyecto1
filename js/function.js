@@ -61,7 +61,6 @@
           }
           element.className = arr1.join(" ");
         }
-<<<<<<< HEAD
 
 
         // Get the modal
@@ -73,5 +72,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-=======
->>>>>>> 8b3bc65fac562c1ebdbd94368594c369a6bc6a6b
