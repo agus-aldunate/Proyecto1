@@ -432,3 +432,11 @@ body {margin:0;height:2000px;}
   font-size: 30px;
 }
 
+.lognotinvisible{
+  display: none;
+}
+
+.usernotvisible{
+  display: none;
+}
+
