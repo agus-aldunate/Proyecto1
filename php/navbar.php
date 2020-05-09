@@ -47,6 +47,11 @@
           <li class="nav-item">
             <a class="nav-link" href="/Proyecto1/about/Descuentos.html"><i class="fa fa-fw fa-dollar"></i>Descuentos</a>
           </li>
+          </ul>
+        </div>  
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
           <?php
                 if(isset ($_SESSION['vuname'])){
                   $username = $_SESSION['vuname'];    
@@ -58,16 +63,13 @@
                 }
                 ?>   
           <li class="nav-item">
-                <div style="float:right;width:auto;margin-left: 63vw">
                   <div style="float:left" class="<?php echo $uservisible?>">
                     <button onclick="document.getElementById('id02').style.display='block'" class="nav-link"><i class="fa fa-fw fa-user"></i> <?php echo $username?></button> 
                   </div>
                   <div style="float:right" class="<?php echo $buttonvisible ?>">
                     <button onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-fw fa-user"></i>Iniciar Sesion</button>
-                </div>
               </div>
       <div id="id01" class="modal">
-      
         <form class="modal-content animate" action="/Proyecto1/php/login.php" method="post">
           <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
