@@ -16,12 +16,14 @@ body {
 
 /*efecto parallax*/
 .parallax {
+  
   background-image: url("../imagenes/parallax.jpg");
   height: 550px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 
 }
 
@@ -33,11 +35,29 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.textoparallax2{
+  text-align: center;
+  font-size: 300%;
+  color: black;
+  padding-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
 .subtextoparallax{
   text-align: center;
   font-size: 200%;
   color: white;
   font-family: 'Oswald', sans-serif;
+}
+
+.subtextoparallax2{
+  text-align: center;
+  font-size: 100%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  padding: 5%;
+  background-color: rgb(255, 255, 255, 0.3);
 }
 
 .icon1{
@@ -163,6 +183,10 @@ body {
 #h101 {
   font-size: 50px;
   word-break: break-all;
+}
+
+#h201{
+padding-left: 5%;
 }
 
 hr{
