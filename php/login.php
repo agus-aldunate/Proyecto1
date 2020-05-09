@@ -10,7 +10,7 @@
     <title> LogIn </title>
 
     </head>
-    <body class = "php" onload="hfabout()"> 
+    <body class = "php" onload="hfabout()" style="background-color: #fefefe;">
 
         <div id="header"></div>
             <?php session_start();
