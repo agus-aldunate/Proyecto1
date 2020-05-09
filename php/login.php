@@ -35,7 +35,7 @@
                     ?>
                 </div>
                 <div class="container" style="background-color:#f1f1f1">
-                <button href="/Proyecto1/Index.html" >Volver</button>
+                <button href="/Proyecto1/Index.html" >Volver al Inicio</button>
                 </div>
             </form>
 

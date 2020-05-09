@@ -378,3 +378,57 @@ hr {
   width: 40%;
   color: white;
 }
+
+
+body {margin:0;height:2000px;}
+.icon-bar {
+  position: fixed;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background:black;
+  color: white;
+}
+
+.twitter {
+  background:black;
+  color: white;
+}
+
+.google {
+  background: black;
+  color: white;
+}
+
+.linkedin {
+  background: black;
+  color: white;
+}
+
+.youtube {
+  background: black;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
