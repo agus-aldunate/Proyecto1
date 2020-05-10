@@ -139,31 +139,7 @@
   </div>
 </div>
 
-<div class="column nature col-lg-3 col-md-6 col-sm-12">
-  <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-    <img src="../imagenes/capilla.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <br>
-      <br>
-      <h4 id="h401">Capilla Sixtina</h4>
-      <br>
-      <div class="text"><br> <br> La Capilla Sixtina es una capilla del Palacio Apostólico de la Ciudad del Vaticano, la residencia oficial del papa. Se trata de la estancia más conocida del conjunto palaciego. Originalmente servía como capilla de la fortaleza vaticana. </div>
-    </div>
-  </div>
-</div>
 
-<div class="column nature col-lg-3 col-md-6 col-sm-12">
-  <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-    <img src="../imagenes/verona.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <br>
-      <br>
-      <h4 id="h401">Verona</h4>
-      <br>
-      <div class="text"><br> <br> Es uno de los destinos turísticos de Italia debido a que es de las ciudades románticas, con bellas construcciones artísticas y lindos espacios para pasear y conocer. </div>
-    </div>
-  </div>
-</div>
 
         </div>
         <div data-aos="fade-down">

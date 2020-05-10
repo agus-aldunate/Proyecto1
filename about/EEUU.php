@@ -132,34 +132,7 @@
           </div>
         </div>
         </div>
-
-        <div class="column nature col-lg-3 col-md-6 col-sm-12" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-          <div class="container">
-          <img src="../imagenes/vegas.jpg" alt="Avatar" class="image">
-          <div class="overlay">
-            <br>
-            <h4 id="h401">Las Vegas</h4>
-            <br>
-            <br>
-            <div class="text"><br><br>Es la ciudad más grande del estado de Nevada, en Estados Unidos. Es uno de los principales destinos turísticos del país gracias a sus zonas comerciales y vacacionales, pero sobre todo gracias a sus casinos. ></div>
-          </div>
-        </div>
-        </div>
-
-        <div class="column nature col-lg-3 col-md-6 col-sm-12" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-          <div class="container">
-          <img src="../imagenes/monte.jpg" alt="Avatar" class="image">
-          <div class="overlay">
-            <br>
-            <h4 id="h401">Monte Rushmore</h4>
-            <br>
-            <br>
-            <div class="text"><br><br>Es un monumental conjunto escultórico tallado en una montaña en el que figuran los rostros de 18 metros de altura de los presidentes estadounidenses George Washington, Thomas Jefferson, Theodore Roosevelt y Abraham Lincoln.</div>
-          </div>
-        </div>
-        </div>
-      </div>
-      
+</div>
       <div data-aos="fade-down">
       <p class="subtextoparallax2">
         <b>Descripción:</b><br><br>

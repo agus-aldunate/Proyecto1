@@ -1,6 +1,6 @@
 html, 
 
-/* Style the body */
+/* Body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -292,7 +292,7 @@ opacity: 1;
 
 .text {
 color: white;
-font-size: 13px;
+font-size: 17px;
 position: absolute;
 top: 50%;
 left: 50%;
@@ -301,6 +301,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 }
+
 .text1 {
   color: white;
   font-size: 17px;

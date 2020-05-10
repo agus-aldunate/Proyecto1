@@ -90,29 +90,7 @@
         </div>
       </div>
 
-      <div class="column nature col-lg-3 col-md-6 col-sm-12">
-        <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-        <img src="../imagenes/sevilla.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-        <br>
-        <h4 id="h401">Sevilla</h4>
-        <br>
-        <div class="text"><br> <br> Capital de Andalucía, Sevilla es una de las ciudades más grandes y famosas de España. En ella se encuentra la tercera Catedral más grande del mundo. Destaca por la celebración de la Semana Santa en la Plaza de España, la Feria de Abril y la Giralda. </div>
-        </div>
-        </div>
-      </div>
 
-      <div class="column nature col-lg-3 col-md-6 col-sm-12">
-        <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-        <img src="../imagenes/salamanca.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-        <br>
-        <h4 id="h401">Salamanca</h4>
-        <br>
-        <div class="text"><br> <br> Ciudad declarada Patrimonio de la Humanidad, presenta una notable colección de edificios renacentistas, barrocos y platerescos. Además posee la Plaza Mayor más bella y armoniosa de España. </div>
-        </div>
-        </div>
-      </div>
 
       <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">

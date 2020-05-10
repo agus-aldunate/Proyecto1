@@ -63,18 +63,6 @@
 
             <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-                  <img src="../imagenes/Xi’an.jpg" alt="Avatar" class="image">
-                  <div class="overlay">
-                    <br>
-                    <h4 id="h401">Xi’an</h4>
-                    <br>
-                    <div class="text"><br> <br> Como si contemplar un ejército del siglo III a.C. de más de 8.000 figuras de terracota a tamaño real, con su séquito de caballos y carrozas no fuese excusa suficiente para viajar hasta Xi’an. </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="column nature col-lg-3 col-md-6 col-sm-12">
-                <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/muralla.jpg" alt="Avatar" class="image">
                   <div class="overlay">
                     <br>
