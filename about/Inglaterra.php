@@ -36,7 +36,7 @@
         <h2 id="h201">Lugares mas visitados</h2>
         <div class="row"> 
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/liverpool.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/cambridge.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -60,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/manchester.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/stonehenge.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/bristol.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -98,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/brighton.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/bigben.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -123,7 +123,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/londoneye.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
               <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                 <img src="../imagenes/chester.jpg" alt="Avatar" class="image">
                 <div class="overlay">
@@ -149,7 +149,7 @@
               </div>
           </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/nottingham.jpg" alt="Avatar" class="image">
                   <div class="overlay">

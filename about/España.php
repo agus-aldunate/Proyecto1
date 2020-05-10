@@ -38,7 +38,7 @@
   <h2 id="h201">Lugares mas visitados</h2>
     <div class="row">
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/madrid.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="column nature">
+    <div class="column nature col-lg-3 col-md-6 col-sm-12">
       <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/barcelona.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -64,7 +64,7 @@
       </div>
   </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/malaga.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -77,7 +77,7 @@
     </div>
 </div>
 
-    <div class="column nature">
+    <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/pamplona.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -90,7 +90,7 @@
         </div>
       </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/sevilla.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -102,7 +102,7 @@
         </div>
       </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/salamanca.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -114,7 +114,7 @@
         </div>
       </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/sanS.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -127,7 +127,7 @@
         </div>
       </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/mallorca.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -139,7 +139,7 @@
         </div>
       </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/valencia.jpg" alt="Avatar" class="image">
         <div class="overlay">
@@ -152,7 +152,7 @@
         </div>
       </div>
 
-      <div class="column nature">
+      <div class="column nature col-lg-3 col-md-6 col-sm-12">
         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
         <img src="../imagenes/toledo.jpg" alt="Avatar" class="image">
         <div class="overlay">

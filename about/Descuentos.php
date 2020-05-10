@@ -34,9 +34,15 @@
       <p class="subtextoparallax">Las tenemos todas aqui para ti.<br>Inicia Sesion para recibir notificaciones de nuevos descuentos.</p>
     </div>
 
+
+    </div>
+    <div class="alert alert-danger alert-dismissible" >
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>COVID19!</strong> En este momento nos encontramos obligados a no vender pasajes debido a la pandemia que estamos viviendo.
+    </div>
     <h1 id="h601">Nuestras ofertas:</h1> 
     <div class="row">
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
             <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
               <img src="../imagenes/sanpablo.jpg" alt="Avatar" class="image">
               <div class="overlay">
@@ -59,7 +65,7 @@
               </div>
             </div>
         </div>
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/ny.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -83,7 +89,7 @@
         </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/paris2.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -107,7 +113,7 @@
         </div>
         </div>
         
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/miami2.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -129,38 +135,10 @@
         </div>
         </div>
 
-        <div class="column nature">
-          <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-          <img src="../imagenes/shangai2.jpg" alt="Avatar" class="image">
-          <div class="overlay">
-            <br>
-            <h4 id="h401">4 noches en Shanghái</h4>
-            <h5 id="h401"><b>POR SOLO 20.000 PESOS!!</b></h5>
-                <div class="center">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star "></span>
-                    <br>
-                </div>
-            <div class="text1">
-              <br><br>Para <b>2 personas</b>, pasaje incluido y tur guiado de tres dias por la ciudad.
-            </div>
-          </div>
-        </div>
-        </div>
-
-    </div>
-    <div class="alert alert-danger alert-dismissible" >
-      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-      <strong>COVID19!</strong> En este momento nos encontramos obligados a no vender pasajes debido a la pandemia que estamos viviendo.
-    </div>
-
     <h1 id="h601">Proximas ofertas: </h1> 
     <div class="row">
 
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/washintong.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -173,7 +151,7 @@
             </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/sanfrancisco.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -187,7 +165,7 @@
         </div>
         
 
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/hollywood.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -200,7 +178,7 @@
             </div>
         </div>
 
-        <div class="column nature">
+        <div class="column nature col-lg-3 col-md-6 col-sm-12">
           <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
           <img src="../imagenes/rio.jpg" alt="Avatar" class="image">
           <div class="overlay">
@@ -208,19 +186,6 @@
                 <h1>COMING SOON</h1>
                 <hr>
                 <p id="demo3" style="font-size:30px"></p>
-              </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="column nature">
-          <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-          <img src="../imagenes/boston.jpg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="middle">
-                <h1>COMING SOON</h1>
-                <hr>
-                <p id="demo4" style="font-size:30px"></p>
               </div>
             </div>
             </div>

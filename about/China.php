@@ -37,7 +37,7 @@
         <br>
         <h2 id="h201">Lugares mas visitados</h2>
           <div class="row">
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/pekin.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/chengdu.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/Xi’an.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/muralla.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -86,7 +86,7 @@
                 </div>
             </div>
            
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/Shanghái.jpg" alt="Avatar" class="image">
                   <div class="overlay">

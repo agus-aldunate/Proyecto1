@@ -37,7 +37,7 @@
   <h2 id="h201">Lugares mas visitados</h2>
         <div class="row">
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/porto.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/copacabana.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/brasilia.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/archipielago.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/portoGa.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -98,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/floripa.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/cristo.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -122,7 +122,7 @@
                 
             </div>
 
-                <div class="column nature">
+                <div class="column nature col-lg-3 col-md-6 col-sm-12">
                     <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                       <img src="../imagenes/buzios.jpg" alt="Avatar" class="image">
                       <div class="overlay">
@@ -133,7 +133,7 @@
                     </div>
                     </div>
 
-                    <div class="column nature">
+                    <div class="column nature col-lg-3 col-md-6 col-sm-12">
                         <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                           <img src="../imagenes/palacioPa.jpg" alt="Avatar" class="image">
                           <div class="overlay">
@@ -145,7 +145,7 @@
                         </div>
                         </div>
 
-            <div class="column nature">
+            <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/pao.jpg" alt="Avatar" class="image">
                     <div class="overlay">
