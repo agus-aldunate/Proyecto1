@@ -98,21 +98,11 @@ body {
   background-color: rgb(231, 231, 231);
 }
 
-.row-full{
-  width: 99.45vw;
-  position: relative;
-  margin-left: -50vw;
-  height: 100%;
-  left: 50%;
- }
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 
-.row-full1{
-  width: 99.75vw;
-  position: relative;
-  margin-left: -50vw;
-  height: 100%;
-  left: 50%;
- }
+}
 
 #navbar{
   z-index: 9999;
