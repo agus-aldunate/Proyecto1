@@ -2,6 +2,7 @@
 <html>
     <head>
     <meta charset="utf-8">
+    <link rel="icon" href="/Proyecto1/favicon.ico"> 
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="../js/function.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +24,7 @@
             ?>
 
 
-            <form class="modal-content animate" action="/Proyecto1/Index.html" method="post">
+            <form class="modal-content animate" action="/Proyecto1/Index.php" method="post">
                 <div class="container">
                 <h4><b>Gracias por iniciar sesion!!!!</b></h4>
                 <p>Tus datos son: </p>
@@ -37,7 +38,7 @@
                     ?>
                 </div>
                 <div class="container" style="background-color:#f1f1f1">
-                <button href="/Proyecto1/Index.html" >Volver al Inicio</button>
+                <button href="/Proyecto1/Index.php" >Volver al Inicio</button>
                 </div>
             </form>
 

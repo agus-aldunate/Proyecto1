@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="icon" href="/Proyecto1/favicon.ico"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -17,6 +18,13 @@
       
     </head>
     <body onload="hfabout()">
+
+    <?php session_start();
+  if(array_key_exists('button1', $_POST)) { 
+    session_destroy(); 
+  }
+?>
+
         <div id="header"></div>
         <div id="navbar"></div>
         <div class="parallaxpais">

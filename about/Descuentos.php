@@ -2,6 +2,7 @@
 <head>
   <title>Descuentos</title>
   <meta charset="utf-8">
+  <link rel="icon" href="/Proyecto1/favicon.ico"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -17,6 +18,14 @@
   <style> .parallax {background-image: url("../imagenes/parallax1.jpg");}</style>
 </head>
 <body onload="hfabout(), Datefortravel(), Datefortravel1(),Datefortravel2(),Datefortravel3(),Datefortravel4()">
+
+<?php session_start();
+  if(array_key_exists('button1', $_POST)) { 
+    session_destroy(); 
+  }
+?>
+
+
     <div id="header"></div>
     <div id="navbar"></div>
 
@@ -145,7 +154,7 @@
     </div>
     <div class="alert alert-danger alert-dismissible" >
       <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-      <strong>COVID19!</strong> En este momneto nos encontramos obligados a no vender pasajes debido a la pandemia que estamos viviendo.
+      <strong>COVID19!</strong> En este momento nos encontramos obligados a no vender pasajes debido a la pandemia que estamos viviendo.
     </div>
 
     <h1 id="h601">Proximas ofertas: </h1> 
