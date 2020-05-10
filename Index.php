@@ -163,7 +163,7 @@
     </div>
   </div>
 </div>
-<div class="contacto" data-aos="fade-down"
+<div class="contacto_area" data-aos="fade-down"
 data-aos-offset="300"
 data-aos-easing="ease-in-sine">
   <div class="section_title text-center mb_70" style="padding-top: 20px;" data-aos="fade-down">

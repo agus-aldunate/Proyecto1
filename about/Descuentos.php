@@ -29,7 +29,7 @@
     <div id="header"></div>
     <div id="navbar"></div>
 
-    <div class="parallax1">
+    <div class="parallaxdescuentos">
       <p class="textoparallax">¿Estas bucando las mejores ofertas para tu viaje?</p>
       <p class="subtextoparallax">Las tenemos todas aqui para ti.<br>Inicia Sesion para recibir notificaciones de nuevos descuentos.</p>
     </div>

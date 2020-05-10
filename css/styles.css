@@ -17,17 +17,13 @@ body {
 
 /*efecto parallax*/
 .parallax {
-  
   background-image: url("../imagenes/parallax.jpg");
   height: 550px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
-
 .parallaxpais {
   
   background-image: url("../imagenes/parallax.jpg");
@@ -36,10 +32,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
-.parallax1 {
+.parallaxdescuentos {
   
   background-image: url("../imagenes/parallax1.jpg");
   height: 550px;
@@ -49,7 +43,7 @@ body {
   background-size: cover;
 }
 
-
+/*textoparallax*/
 .textoparallax{
   text-align: center;
   font-size: 300%;
@@ -85,11 +79,13 @@ body {
   background-color: whitesmoke;
 }
 
+/*IconosIndex*/
 .icon1{
   width: 30%;
   height: auto;
 }
 
+/*AreasIndex*/
 .travel_variation_area{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -99,15 +95,84 @@ body {
   background-color: rgb(231, 231, 231);
 }
 
-.contacto{
+.contacto_area{
   background-color: rgb(231, 231, 231);
 }
+
+/*Formato Cards*/
 
 .row{
   margin-right: 0 !important;
   margin-left: 0 !important;
 
 }
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+content {
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+
+.container {
+position: relative;
+width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 7px;
+  }
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    }
+    
+    
+    
+    
+.container:hover .overlay {
+    opacity: 1;
+    }
+
+
+/*Barra de Navegacion*/
 
 #navbar{
   z-index: 9999;
@@ -170,25 +235,7 @@ body {
   text-decoration: none;
   display: block;
 }
-
-.dropdown a:hover {background-color: #ddd;}
-
 .show {display: block;}
-.fakeimg {
-  height: 200px;
-  background: #aaa;
-}
-
-.imgcar {
-  height: 1%;
-  width: auto;
-}
-
-.logo {
-  width: 10%;
-  height: auto;
-  padding: 10px;
-}
 
 .sticky {
   position: fixed;
@@ -200,26 +247,17 @@ body {
   padding-top: 30px;
 }
 
-/* paginas de paises */
+/* Formato Logo*/
+.logo {
+  width: 10%;
+  height: auto;
+  padding: 10px;
+}
 
+/* paginas de paises */
 .main {
   max-width: 1000px;
   margin: auto;
-}
-
-#h101 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-#h201{
-padding-left: 5%;
-}
-
-hr{
-  border: none;
-  height: 2px;
-  width: 90%;
 }
 
 .vl {
@@ -227,69 +265,16 @@ hr{
   height: 30px;
 }
 
-.row {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.row,
-.row > .column {
-  padding: 10px;
-}
-
-
-.column {
-  float: left;
-  width: 20%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 .content {
   background-color: white;
   padding: 10px;
 }
 
-.show {
-  display: block;
-}
-
-
-.container {
-position: relative;
-width: 50%;
-}
-
-.image {
-display: block;
-width: 100%;
-height: auto;
-border-radius: 7px;
-}
-
-.overlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: auto;
-width: auto;
-opacity: 0;
-transition: .5s ease;
-background-color: rgb(0, 0, 0, 0.7);
-border-radius: 7px;
-}
-
-.container:hover .overlay {
-opacity: 1;
-}
-
+/* Formatos de Texto*/
+#h201{
+  padding-left: 5%;
+  }
+  
 .text {
 color: white;
 font-size: 17px;
@@ -344,13 +329,15 @@ background-color: rgb(255, 255, 255, 0.5);
   font-size: 125%;
 }
 
-
 #h501{
 padding: 5%;
 }
+
 #h601{
   padding: 2%;
   }
+
+/* LogIn */
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -380,7 +367,6 @@ button:hover {
   padding: 10px 18px;
   background-color: #f44336;
 }
-
 
 .imgcontainer {
   text-align: center;
@@ -491,14 +477,12 @@ hr {
   color: white;
 }
 
-
-
 .content {
   margin-left: 75px;
   font-size: 30px;
 }
 
-/*perdon de antemano*/
+/*Footer*/
 
 .footer {
   bottom: 0;
@@ -541,14 +525,15 @@ footer a:hover{
   background: white;
 }
 
-/* Slides */
+
+/* Comentarios */
+
 .mySlides {
   display: none;
   padding: 80px;
   text-align: center;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -562,27 +547,23 @@ footer a:hover{
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
   background: #f1f1f1f1;
 }
 
-/* The dot/bullet/indicator container */
 .dot-container {
     text-align: center;
     padding: 20px;
     background: white;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -594,17 +575,14 @@ footer a:hover{
   transition: background-color 0.6s ease;
 }
 
-/* Add a background color to the active dot/circle */
 .active, .dot:hover {
   background-color: #717171;
 }
 
-/* Add an italic font style to all quotes */
 q {font-style: italic;}
 
-/* Add a blue color to the author */
 .author {color: cornflowerblue;}
-/* Popup container - can be anything you want */
+
 .popup {
   position: relative;
   display: inline-block;
@@ -615,7 +593,6 @@ q {font-style: italic;}
   user-select: none;
 }
 
-/* The actual popup */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
@@ -631,7 +608,6 @@ q {font-style: italic;}
   margin-left: -80px;
 }
 
-/* Popup arrow */
 .popup .popuptext::after {
   content: "";
   position: absolute;
@@ -643,14 +619,12 @@ q {font-style: italic;}
   border-color: #555 transparent transparent transparent;
 }
 
-/* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
 
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
@@ -666,8 +640,7 @@ q {font-style: italic;}
 }
 
 
-
-
+/* Negocios Cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
