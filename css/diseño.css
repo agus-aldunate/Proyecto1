@@ -9,10 +9,11 @@ body {
 }
 
 /*php*/
-.error {color: red;}
-
 .label {width: 200px;}
 
+.php{
+  background-image: url("../imagenes/login.png");
+}
 
 /*efecto parallax*/
 .parallax {
