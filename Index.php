@@ -87,7 +87,7 @@
                     <br>
                     <br>
                     <br>
-                    <h4 id="h401"><a href="/Proyecto1/about/Francia.php" style="color: white;">Francia</a></h4>
+                    <h4 id="h401"><a href="/Proyecto1/about/Francia.php" class="text2">Francia</a></h4>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@
                     <br>
                     <br>
                     <br>
-                    <h4 id="h401"><a href="/Proyecto1/about/EEUU.php" style="color: white;">Estados <br> Unidos</h4></a>
+                    <h4 id="h401"><a href="/Proyecto1/about/EEUU.php" class="text2">Estados <br> Unidos</h4></a>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@
                     <br>
                     <br>
                     <br>
-                    <h4 id="h401"><a href="/Proyecto1/about/Brasil.php" style="color: white;">Brasil</h4></a>
+                    <h4 id="h401"><a href="/Proyecto1/about/Brasil.php" class="text2">Brasil</h4></a>
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@
                     <br>
                     <br>
                     <br>
-                    <h4 id="h401"><a href="/Proyecto1/about/España.php" style="color: white;">España</h4></a>
+                    <h4 id="h401"><a href="/Proyecto1/about/España.php" class="text2">España</h4></a>
                   </div>
                 </div>
                </div>
@@ -174,7 +174,7 @@ data-aos-easing="ease-in-sine">
         <div class="card">
           <img src="/Proyecto1/imagenes/sol.jpg" style="width:100%">
           <h1>Sol  <br> Roqueta</h1>
-          <p class="title">CEO & Fundadora  & Programadora</p>
+          <p class="title">CEO & Fundadora  & <br> Programadora</p>
           <p>Liceo Iep</p>
         </div>
       </div>
@@ -190,7 +190,7 @@ data-aos-easing="ease-in-sine">
       <div class="card">
         <img src="/Proyecto1/imagenes/agus.jpg" style="width:100%">
         <h1>Agustina Aldunate</h1>
-        <p class="title">CEO & Fundadora & Informadora turistica</p>
+        <p class="title">CEO & Fundadora & <br> Informadora turistica</p>
         <p>Liceo Iep</p>
       </div>
     </div>
