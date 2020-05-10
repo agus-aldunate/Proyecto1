@@ -12,7 +12,7 @@ body {
 .label {width: 200px;}
 
 .php{
-  background-image: url("../imagenes/login.png");
+  background-image: url("../imagenes/avion.jpg");
 }
 
 /*efecto parallax*/
@@ -444,7 +444,7 @@ span.psw {
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 480px) {
   span.psw {
      display: block;
      float: none;
@@ -452,7 +452,56 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+  .tam {
+    font: size 1rm!important;
+  }
+
+  .logo{
+    display: none;
+  }
+  .imgcontainer{
+    display: none;
+  }
+
+  .h1, h1 {
+    font-size: 1.5rem!important;
+  }
 }
+
+@media (max-width: 576px) {
+  .tam {
+    font-size:1.5rm!important;
+  }
+ 
+  .logo{
+    display: none;
+  }
+  .imgcontainer{
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .tam {
+    font-size: 1.0rm!important;
+  }
+
+  .logo{
+    display: none;
+  }
+  .imgcontainer{
+    display: none;
+  }
+
+  .h1, h1 {
+    font-size: 1.0rem!important;
+  }
+  
+  .my-modal-content{
+    width: 80% !important;
+  }  
+}
+
 
 .checked {
   color: orange;
@@ -635,7 +684,7 @@ q {font-style: italic;}
   to {opacity:1 ;}
 }
 
-.modal-content{
+.my-modal-content{
   width: 50% !important;
 }
 

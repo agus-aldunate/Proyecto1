@@ -25,7 +25,7 @@
 
 
             <form class="modal-content animate" action="/Proyecto1/Index.php" method="post">
-                <div class="container">
+                <div class="tam">
                 <h4><b>Gracias por iniciar sesion!!!!</b></h4>
                 <p>Tus datos son: </p>
                 <?php
