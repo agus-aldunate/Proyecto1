@@ -6,7 +6,7 @@
     <script src="../js/function.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/diseño.css" type="text/css">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
     <title> LogIn </title>
 
     </head>
