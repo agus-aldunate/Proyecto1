@@ -141,32 +141,6 @@
   </div>
 </div>
 
-<div class="column nature col-lg-3 col-md-6 col-sm-12">
-  <div class="container"  data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-    <img src="../imagenes/museoD.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <br>
-      <br>
-      <h4 id="h401">Museo D'Orsay</h4>
-      <br>
-      <div class="text"><br> <br> Conocido en el mundo entero por su rica colección de arte impresionista. Sus colecciones representan todas las formas de expresión, de la pintura a la arquitectura, pasando por la escultura, las artes decorativas, la fotografía. </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="column nature col-lg-3 col-md-6 col-sm-12">
-  <div class="container"  data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-    <img src="../imagenes/eurodisney.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <br>
-      <br>
-      <h4 id="h401">Eurodisney</h4>
-      <br>
-      <div class="text"><br> <br> Es un complejo turístico recreacional y de vacaciones de 22,3 km² situado en Marne-la-Vallée. Es conocido por ser la recreacion de DisneyWorld pero en Europa. </div>
-    </div>
-  </div>
-</div>
 
   </div> 
 

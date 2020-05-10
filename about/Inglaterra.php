@@ -136,31 +136,7 @@
                 </div>
             </div>
 
-            <div class="column nature col-lg-3 col-md-6 col-sm-12">
-              <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-                <img src="../imagenes/chester.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                  <br>
-                  <br>
-                  <h4 id="h401">Chester</h4>
-                  <br>
-                  <div class="text"><br> <br> Está entre los sitios históricos de Inglaterra por conservar fuertes rastros de los antiguos romanos, por ejemplo el Anfiteatro Romano más antiguo del país. </div>
-                </div>
-              </div>
-          </div>
 
-            <div class="column nature col-lg-3 col-md-6 col-sm-12">
-                <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-                  <img src="../imagenes/nottingham.jpg" alt="Avatar" class="image">
-                  <div class="overlay">
-                    <br>
-                    <br>
-                    <h4 id="h401">Nottingham</h4>
-                    <br>
-                    <div class="text"><br> <br> Quizá recuerdes Nottingham de la leyenda de Robin Hood, en la vida real es uno de los atractivos turísticos de Inglaterra. Visita el Museo Nacional de Justicia, podes acampar y explorar los productos locales que incluyen desde quesos hasta vinos. </div>
-                  </div>
-                </div>
-            </div>
 
         </div>
 

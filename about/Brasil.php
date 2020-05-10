@@ -86,17 +86,6 @@
                 </div>
             </div>
 
-            <div class="column nature col-lg-3 col-md-6 col-sm-12">
-                <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-                  <img src="../imagenes/portoGa.jpg" alt="Avatar" class="image">
-                  <div class="overlay">
-                    <br>
-                    <h4 id="h401"> Porto de Galinhas  </h4>
-                    <br>
-                    <div class="text"><br> <br> La playa Porto de Galinhas fue escogida siete veces como la mejor playa de Brasil por la revista Viagem e Turismo. La playa cuenta con piscinas naturales y su propia barrera de coral que se puede acceder en marea baja por jangadas (pequeñas barcas). </div>
-                  </div>
-                </div>
-            </div>
 
             <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
@@ -133,17 +122,7 @@
                     </div>
                     </div>
 
-                    <div class="column nature col-lg-3 col-md-6 col-sm-12">
-                        <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
-                          <img src="../imagenes/palacioPa.jpg" alt="Avatar" class="image">
-                          <div class="overlay">
-                            <br>
-                            <h4 id="h401"> Palacio do Planalto </h4>
-                            <br>
-                            <div class="text"><br> <br> El Palacio do Planalto es la sede del poder ejecutivo del gobierno brasileño y fue parte del plan piloto de Brasilia, es decir uno de los primeros construidos y por lo tanto uno de los lugares importantes en Brasil y de su historia.  </div>
-                          </div>
-                        </div>
-                        </div>
+    
 
             <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
