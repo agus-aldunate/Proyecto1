@@ -38,7 +38,7 @@
           data-aos-offset="200"
           data-aos-easing="ease-in-sine">
           <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="single_travel text-center">
                 <div class="icon">
                   <img class="icon1" src="imagenes/guide.svg" alt="">
@@ -47,7 +47,7 @@
                 <p>Cada viaje viene con guías para mostrarte todo lo que puedas ver.</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="single_travel text-center">
                 <div class="icon">
                   <img class="icon1" src="imagenes/travel.svg" alt="">
@@ -56,7 +56,7 @@
                 <p>Tenemos una gran categoría de destinos, todos a su dispocicion</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="single_travel text-center">
                 <div class="icon">
                   <img class="icon1" src="imagenes/suitcases.svg" alt="">
@@ -80,7 +80,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="row">
-              <div class="column nature">
+              <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container">
                   <img src="imagenes/torreE.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -91,7 +91,7 @@
                   </div>
                 </div>
               </div>
-              <div class="column nature">
+              <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container">
                   <img src="imagenes/disney.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -104,19 +104,7 @@
               </div>
 
 
-              <div class="column nature">
-                <div class="container">
-                  <img src="imagenes/pisa.jpg" alt="Avatar" class="image">
-                  <div class="overlay">
-                    <br>
-                    <br>
-                    <br>
-                    <h4 id="h401"><a href="/Proyecto1/about/Italia.php" style="color: white;">Italia</h4></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="column nature">
+              <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container">
                   <img src="imagenes/porto.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -128,7 +116,7 @@
                 </div>
               </div>
 
-              <div class="column nature">
+              <div class="column nature col-lg-3 col-md-6 col-sm-12">
                 <div class="container">
                   <img src="imagenes/barcelona.jpg" alt="Avatar" class="image">
                   <div class="overlay">
@@ -182,7 +170,7 @@ data-aos-easing="ease-in-sine">
     <h1><b>Conócenos!!</b></h1>
   </div>
   <div class="row justify-content-center" data-aos="fade-down">
-    <div class="column nature">
+    <div class="column nature col-lg-4 col-md-12 col-sm-12">
         <div class="card">
           <img src="/Proyecto1/imagenes/sol.jpg" style="width:100%">
           <h1>Sol  <br> Roqueta</h1>
@@ -190,7 +178,7 @@ data-aos-easing="ease-in-sine">
           <p>Liceo Iep</p>
         </div>
       </div>
-      <div class="column nature">
+      <div class="column nature col-lg-4 col-md-12 col-sm-12">
         <div class="card">
           <img src="/Proyecto1/imagenes/fara.jpg" style="width:100%">
           <h1>Santiago Faraldo</h1>
@@ -198,7 +186,7 @@ data-aos-easing="ease-in-sine">
           <p>Liceo Iep</p>
         </div>
       </div>
-    <div class="column nature">
+    <div class="column nature col-lg-4 col-md-12 col-sm-12">
       <div class="card">
         <img src="/Proyecto1/imagenes/agus.jpg" style="width:100%">
         <h1>Agustina Aldunate</h1>
