@@ -72,9 +72,10 @@
       <div id="id01" class="modal">
         <form class="modal-content animate" action="/Proyecto1/login/login.php" method="post">
           <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Cerrar">&times;</span>
             <img src="/Proyecto1/imagenes/img_avatar2.png" alt="Avatar" class="avatar">
           </div>
+
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Cerrar">&times;</span>
 
           <div class="container">
             <label for="uname"><b>Usuario</b></label>
@@ -92,9 +93,9 @@
       <div id="id02" class="modal">
       <form class="my-modal-content modal-content animate" method="post">
           <div class="imgcontainer">
-            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="/Proyecto1/imagenes/img_avatar2.png" alt="Avatar" class="avatar">
           </div>
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
 
           <div class="container" >
               <h1><b>Desea cerrar sesion?</b></h1>

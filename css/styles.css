@@ -265,10 +265,6 @@ width: 50%;
   height: 30px;
 }
 
-.content {
-  background-color: white;
-  padding: 10px;
-}
 
 /* Formatos de Texto*/
 #h201{
@@ -408,7 +404,8 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto;
   border: 1px solid #888;
-  width: 80%; 
+  width: 80%!important; 
+  padding: 20px;
 }
 
 
@@ -683,11 +680,6 @@ q {font-style: italic;}
   from {opacity: 0;}
   to {opacity:1 ;}
 }
-
-.my-modal-content{
-  width: 50% !important;
-}
-
 
 /* Negocios Cards */
 .card {
