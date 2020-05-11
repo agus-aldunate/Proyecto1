@@ -53,7 +53,8 @@
                 <div class="container" data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="700">
                   <img src="../imagenes/chengdu.jpg" alt="Avatar" class="image">
                   <div class="overlay">
-                    
+                    <br>
+                    <br>
                     <h4 id="h401">Chengdu</h4>
                     <br>
                     <div class="text"><br> <br> En Chengdu abundan los centros de conservación y cría de estos animales en peligro de extinción, en muchos de ellos podrás ver a los osos panda en semi-libertad rodeados de bambú. </div>
