@@ -36,8 +36,7 @@
 
 
     </div>
-    <div class="alert alert-danger alert-dismissible" >
-      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <div class="alert alert-danger" >
       <strong>COVID19!</strong> En este momento nos encontramos obligados a no vender pasajes debido a la pandemia que estamos viviendo.
     </div>
     <h1 id="h601">Nuestras ofertas:</h1> 

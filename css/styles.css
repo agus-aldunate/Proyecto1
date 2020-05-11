@@ -264,7 +264,10 @@ width: 50%;
   border-left: 2px solid gray;
   height: 30px;
 }
-
+/* Alerta COVID*/
+.alert{
+  border-radius: 0 !important;
+}
 
 /* Formatos de Texto*/
 #h201{
